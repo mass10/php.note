@@ -17,7 +17,9 @@ $ sudo service apache2 restart
 ```
 
 
-# Twig
+# Install Twig
+
+- requires PHP 7
 
 ```
 composer require "twig/twig:^2.0"
