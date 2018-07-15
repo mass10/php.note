@@ -1,6 +1,5 @@
 #!/usr/bin/env php
 <?php
-
 function timestamp1() {
 
 	$time_array = localtime();
@@ -13,14 +12,10 @@ function timestamp1() {
 	return sprintf("%04d-%02d-%02d %02d:%02d:%02d", $year, $month, $day, $hour, $min, $sec);
 }
 
-function show_timestamp1() {
-
-	printf("%s\n", timestamp1());
-}
-
 function main() {
 
-	show_timestamp1();
+	echo timestamp1(), "\n";
+	echo date("c"), "\n";
 }
 
 main();
