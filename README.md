@@ -16,3 +16,9 @@ $ sudo a2ensite default-ssl
 $ sudo service apache2 restart
 ```
 
+
+# Twig
+
+```
+composer require "twig/twig:^2.0"
+```
