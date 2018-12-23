@@ -46,6 +46,10 @@ function _main() {
 	_test_alphabet("jasiuq.ksaiuqe");
 	_test_alphabet("Ａ");
 	_test_alphabet("Ｂ");
+
+	$left = "";
+	print_r(preg_match("/name=([^&]+)/", "?name=jimi.hendrix&user_id=a18f500f-534b-4ded-b79e-6d6c60d21fb6", $match));
+	var_dump($match);
 }
 
 _main();
